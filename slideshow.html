@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en"> <!--Lenguaje en español-->
+<head>
+	<meta charset="utf-8"> <!--para interpretar caracteres del codigo ASCII-->
+	<meta http-equiv="X-UA-Compatible" content="fe-edge">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">	
+	<link rel="stylesheet"  type="text/css" href="css/estilos.css"> <!--Hoja de Estilos--> 
+	<title>Carusel</title>
+</head>
+<body>
+	<header>
+
+	</header>
+	<div class="container">
+		<br>
+		<div class="col-md-12">
+			<div id="carousel-1" class="carousel slide" data-ride="carousel">
+				<!--Indicadores-->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-1" data-slide-to="1"></li>
+					<li data-target="#carousel-1" data-slide-to="2"></li>
+				</ol>
+				<!--Contenedor de los slide-->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="imagen/Desarrollo_sistemas3.jpg" class="img-responsive"alt="">
+						<div class="carousel-caption hidden-xs nidden-sm">
+							<h3>Este es mi Imagen #1</h3>
+						</div>
+					</div>
+					<div class="item">
+						<img src="imagen/Desarrollo_sistemas4.jpg" class="img-responsive"alt="">
+						<div class="carousel-caption hidden-xs nidden-sm">
+							<h3>Este es mi Imagen #2</h3>
+						</div>
+					</div>
+					<div class="item">
+						<img src="imagen/Desarrollo_sistemas5.jpg" class="img-responsive"alt="">
+						<div class="carousel-caption">
+							<h3>Este es mi Imagen #3</h3>
+						</div>
+					</div>
+				</div>
+				<!--Controles-->
+				<a href="#carousel-1" class="left carousel-control" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Anterior</span>
+				</a>
+				<a href="#carousel-1" class="right carousel-control" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Siguiente</span>
+				</a>
+			</div>
+	
+		</div>
+	</div>
+	<footer>
+	</footer>
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
