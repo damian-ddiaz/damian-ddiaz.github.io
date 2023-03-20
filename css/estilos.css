@@ -15,6 +15,11 @@
 	margin-bottom: 10px;
 }	
 
+h2 a{
+	color:#080808;
+}
+
+/*
 .post{
 	padding-bottom: 20px;
 	margin-bottom: 20px;
@@ -22,7 +27,8 @@
 }
 
 .post .post-title a{
-	color:#000000;
+	text-align: justify;
+	color:#080808;
 	font-size: 10;
 }
 
@@ -37,7 +43,7 @@
 
 .post .contenedor-botones {
 	width: 100%;
-}
+}*/
 
 /*-- Media Querie--*/
 @media screen and (max-width: 768px) {
