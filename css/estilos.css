@@ -19,6 +19,12 @@ h2 a{
 	color:#080808;
 }
 
+div .img-area img{
+	padding: 15px;
+	margin: 0px ;
+	width: 200px;
+	height: 200px;
+}
 /*
 .post{
 	padding-bottom: 20px;
