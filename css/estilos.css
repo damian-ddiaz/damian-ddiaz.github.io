@@ -20,10 +20,15 @@ h2 a{
 }
 
 div .img-area img{
-	padding: 15px;
+	padding: 10px;
 	margin: 0px ;
 	width: 200px;
 	height: 200px;
+}
+
+p{
+	font-size: 20;
+	text-align: justify;
 }
 /*
 .post{
