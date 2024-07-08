@@ -43,12 +43,13 @@ h2{
     overflow: hidden;
     position: absolute;
  /*   box-shadow: 0px 0px 20px 0px black;*/
-    transition: all 300ms;
+    transition: all 360ms;
 }
+
 
 .content-carrousel figure:hover{
     box-shadow: 0px 0px 0px 0px black;
-    transition: all 300ms;
+    transition: all 500ms;
 }
 
 
@@ -59,15 +60,14 @@ h2{
 .content-carrousel figure:nth-child(5){transform: rotateY(240deg)translateZ(300px);}
 .content-carrousel figure:nth-child(6){transform: rotateY(300deg)translateZ(300px);}
 .content-carrousel figure:nth-child(7){transform: rotateY(360deg)translateZ(300px);}
-
 .content-carrousel img{
-    width: 100%;
-    transition: all 300ms;
+    width: 50%;
+    transition: all 500ms;
 }
 
 .content-carrousel img:hover{
     transform:scale(1.2);
-    transition: all 300ms;
+    transition: all 360ms;
 }
 
 @keyframes rotar{
